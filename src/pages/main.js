@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { CCarousel, CCarouselItem, CImage} from '@coreui/react'
+import { CCarousel, CCarouselItem} from '@coreui/react'
 
 import '../App.css';
 
