@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: row;
     color: white;
-    font-size: 20px;
+    font-size: 100%;
     font-family: sans-serif;
     text-align: center;
     font-weight: 100;
@@ -46,6 +46,12 @@
     to {
         scale: 1.2
         
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .mainNavItem {
+      font-size: 70%;
+      min-width: 30px;
     }
   }
   
