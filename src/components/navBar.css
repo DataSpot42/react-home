@@ -1,14 +1,15 @@
 
 .mainNavBar-container {
     display: flex;
+    align-content: flex-start;
+    align-self: center;
     flex-direction: row;
-    min-height: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: left;
+    min-height: 20px;      
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content:center;   
     position: fixed;
-    top: 0;
-    
+    top: 0;    
     width: 100%;
     background-color: #000000;
   }
@@ -44,7 +45,7 @@
         scale: 1
     }
     to {
-        scale: 1.2
+        scale: 1.15
         
     }
   }

@@ -1,0 +1,127 @@
+.appPages {
+    width: 100vw;
+    height: 95.5vh;
+    background-color: black;
+
+}
+
+.navSpace {
+    min-height: 30px;
+}
+
+.appGrid-container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    max-width: 80vw;
+    margin: auto;
+
+
+
+}
+
+.navSpace {
+    min-height: 30px;
+}
+
+.appCards {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-shadow: 5px black;
+    padding: 15px 15px;
+    list-style-type: none;
+    background: radial-gradient(ellipse at 50% 50%, rgba(155, 155, 155, 1) 0%, rgba(85, 85, 85, 0.89) 61%, rgba(8, 8, 8, 0.82) 100%);
+    transition: scale ease-out 100ms;
+    border-radius: 10px;
+    position: relative;
+}
+
+.appCards:hover {
+    box-shadow: rgba(150, 150, 150, 0.75) 3px 5px 15px;
+}
+
+.appTitle {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.appSubTitle {
+    font-size: 1.2em;
+}
+
+.appText {
+    font-size: 1em
+}
+
+.appImage {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 16px;
+
+
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+    border: 3px;
+    border: solid;
+    border-color: rgb(130, 130, 130);
+    box-shadow: rgba(100, 100, 100, 0.75) 3px 5px 15px;
+}
+
+.cardButton {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 200px;
+    padding: 10px 0;
+    margin: auto;
+    height: 9px;
+    text-decoration: none;
+    min-width: 100px;
+    max-width: 250px;
+    border: 10px;
+    border-radius: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background: radial-gradient(rgb(7, 7, 8) 40%, rgb(69, 69, 69) 70%, rgb(231, 231, 234) 100%);
+    transition: scale ease-out 100ms;
+
+
+}
+
+.button-container {
+    display: flex;
+    
+    align-self: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.cardButton:hover {
+    scale: 1.2;
+
+}
+
+#bottom {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 5px;
+
+}

@@ -3,12 +3,15 @@ import "./navBar.css"
 
 const NavBar = () =>{
 return (
+    <div>
+    
     <div className="mainNavBar-container">
         <Link to='/HomePage' className = "mainNavItem"><span className='linkN'>Home</span></Link>
         <Link to='/' className = "mainNavItem"><span className='linkN'>Apps Carousel</span></Link>
-        <Link to='/CardGamesApp' className = "mainNavItem"><span className='linkN'>Card Games</span></Link>
-        <Link to='/WeatherApp' className = "mainNavItem"><span className='linkN'>WeatherApp</span></Link>
-        <Link to='/TodoApp' className = "mainNavItem"><span className='linkN'>To Do App</span></Link>
+        <Link to='/EComm' className = "mainNavItem"><span className='linkN'>eCommerce</span></Link>
+        <Link to='/Util' className = "mainNavItem"><span className='linkN'>Utilities</span></Link>
+        <Link to='/Games' className = "mainNavItem"><span className='linkN'>Games</span></Link>
+    </div>
     </div>
 )
 }
