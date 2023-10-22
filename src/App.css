@@ -16,12 +16,12 @@
   min-width: 20vw;
   min-height: 20vh;
   max-width: 90vw;
-  max-height: 50vh;
+  max-height: 90vh;
   justify-content: center;
 }
 .caraItem {
   width: 60vw;
-  height: 90vh; 
+  height: 80vh; 
   
 }
 .caraApp {
@@ -132,6 +132,12 @@
   .mainItem {
     font-size: 65%;
     min-width: 30px;
+    
+  }
+  .caraItem {
+    width: 60vw;
+      
+    
   }
 }
 

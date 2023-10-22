@@ -34,7 +34,7 @@ const UtilCards = () => {
             image: "./images/fstdgh.png",
             imageAlt: "Full Stack Repo",
             linkUrl: "https://github.com/DataSpot42/FullStackToDo",
-            linkText: "To Do App" }
+            linkText: "To Do FS Repo" }
                     
         ]
 return (utilCard)

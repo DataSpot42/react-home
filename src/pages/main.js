@@ -1,4 +1,3 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { CCarousel, CCarouselItem} from '@coreui/react'
 

@@ -85,15 +85,13 @@ img {
     text-align: center;
     font-weight: 100;
     justify-content: center;
-    align-items: center;
-
-    min-width: 200px;
+    align-items: center;   
     padding: 10px 0;
     margin: auto;
     height: 9px;
     text-decoration: none;
-    min-width: 100px;
-    max-width: 250px;
+    
+    max-width: 150px;
     border: 10px;
     border-radius: 20px;
     flex-grow: 1;
@@ -125,3 +123,34 @@ img {
     bottom: 5px;
 
 }
+@media screen and (max-width: 800px) {
+    .appCards {
+        font-size: 10px;
+    }
+    .cardButton {
+        max-width: 110px;
+        padding: 5px 5px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .appGrid-container {
+
+    
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    }
+    .appCards {
+        font-size: 8px;
+        
+    }
+    .cardButton {
+        max-width: 85px;
+        padding: 5px 5px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .cardButton {
+        
+        padding: 5px 5px;
+    }
+}    
