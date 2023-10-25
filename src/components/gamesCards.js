@@ -10,7 +10,7 @@ const GamesCards = () => {
             {title: "Card Games",
             subTitle: "Card Games GitHub",
             text: "GitHub Repo",
-            image: "./images/cardGamesRepo.png",
+            image: "./images/Github_logo.png",
             imageAlt: "Github Repo",
             linkUrl: "https://github.com/DataSpot42/card-games-app",
             linkText: "Card Games Repo" }            
