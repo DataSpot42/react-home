@@ -1,6 +1,6 @@
 .appPages {
     width: 100vw;
-    height: 95.5vh;
+    height: 99.5vh;
     background-color: black;
 
 }
@@ -88,10 +88,11 @@ img {
     align-items: center;   
     padding: 10px 0;
     margin: auto;
-    height: 9px;
+    height: 5%;
+    width: 40%;
     text-decoration: none;
-    
-    max-width: 150px;
+    max-height: 40px;
+    max-width: 200px;
     border: 10px;
     border-radius: 20px;
     flex-grow: 1;

@@ -21,18 +21,18 @@
 }
 .caraItem {
   width: 60vw;
-  height: 80vh; 
+  height: 90vh; 
   
 }
 .caraApp {
   width: 100%;
-  height: 85%;
+  height: 65%;
 
 }
 .caraText {
   text-align: center;
   width: 100%;
-  height: 7vh;
+  height: 15vh;
   background-color: azure;
   padding: 3px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
