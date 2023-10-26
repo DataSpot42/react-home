@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { CCarousel, CCarouselItem} from '@coreui/react'
+import { Link } from 'react-router-dom';
 
 import '../App.css';
 
@@ -31,6 +32,11 @@ const MainPage = () => {
   <iframe className="caraApp" title="PunkIPA" src="https://punkipa.netlify.app/" width="100%" height="99.4%" ></iframe>
   <div className="caraText">eCommerce App complted during bootcamp with a fellow student. Click on link below to open the app</div>
   <div className="button-container"><a className = "cardButton" href="https://punkipa.netlify.app/" target="_blank" rel="noreferrer">PunkIPA App</a></div>
+  </CCarouselItem>
+  <CCarouselItem className="caraItem">
+  <div className="caraApp"><img className="caraSlide" src="./images/Slide2.svg" alt="TechDogBlogSlideShow"></img></div>
+  <div className="caraText">The final Bootcamp assignment was to create a full stack app in a team of 4.  We chose a blog platform and called it TechDog.blog  Heres is a slide show of our presentation</div>
+  <div className="button-container"><Link className = "cardButton" to="/TechDogBlogPPT">TechDogBlogPPT</Link></div>
   </CCarouselItem>
 </CCarousel>
 </div>

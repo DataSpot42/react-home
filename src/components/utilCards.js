@@ -40,7 +40,7 @@ const UtilCards = () => {
             text: "The final Bootcamp assignment was to create a full stack app in a team of 4.  We chose a blog platform and called it TechDog.blog  Heres is a slide show of our presentation",
             image: "./images/Slide2.svg",
             imageAlt: "TechDog.blog SlideShow",
-            linkUrl: "https://camelcode.netlify.app/TechDogBlogppt",
+            linkUrl: "https://camelcode.netlify.app/TechDogBlogPPT",
             linkText: "TechDog SlideShow" },
             {title: "TechDog.blog",
             subTitle: "Blogging Platform Repo",
