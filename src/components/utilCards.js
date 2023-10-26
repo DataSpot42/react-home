@@ -34,7 +34,22 @@ const UtilCards = () => {
             image: "./images/Github_logo.png",
             imageAlt: "Full Stack Repo",
             linkUrl: "https://github.com/DataSpot42/FullStackToDo",
-            linkText: "To Do FS Repo" }
+            linkText: "To Do FS Repo" },
+            {title: "TechDog.blog",
+            subTitle: "Blogging Platform Slideshow",
+            text: "The final Bootcamp assignment was to create a full stack app in a team of 4.  We chose a blog platform and called it TechDog.blog  Heres is a slide show of our presentation",
+            image: "./images/Slide2.svg",
+            imageAlt: "TechDog.blog SlideShow",
+            linkUrl: "https://camelcode.netlify.app/TechDogBlogppt",
+            linkText: "TechDog SlideShow" },
+            {title: "TechDog.blog",
+            subTitle: "Blogging Platform Repo",
+            text: "As the backend is not hosted at present take a look at our GitHub Repo",
+            image: "./images/Github_logo.png",
+            imageAlt: "TechDog.blog Repo",
+            linkUrl: "https://github.com/DataSpot42/techDogblog",
+            linkText: "TechDog Repo Link" }
+            
                     
         ]
 return (utilCard)

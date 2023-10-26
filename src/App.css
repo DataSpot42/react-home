@@ -29,6 +29,11 @@
   height: 65%;
 
 }
+.caraSlide {
+  display: flex;    
+  justify-content: center;
+  
+}
 .caraText {
   text-align: center;
   width: 100%;

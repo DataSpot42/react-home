@@ -10,6 +10,7 @@ import EComm from "./pages/EComm";
 import Games from "./pages/Games";
 import PunkIPA from "./pages/PunkIPA";
 import Util from "./pages/Util";
+import TechDogPPT from "./pages/TechDogBlogppt";
 
 function App() {
   return (
@@ -53,6 +54,10 @@ function App() {
          <Route
         path='/Games'
         element={<Games />}
+        />
+        <Route
+        path='/TechDogBlogPPT'
+        element={<TechDogPPT />}
         />
          </ Routes>
         </div>
