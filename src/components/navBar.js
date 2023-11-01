@@ -6,6 +6,8 @@ const NavBar = () =>{
     const doc = [
 {title: "Week 1 JavaScript Workshop", file: "Week1JavaScripWorkshop.pdf"},
 {title: "Week 2 HTML Challange", file: "Week2HTMLChallange.pdf"},
+{title: "Week 2 Databases Workshop", file: "Databases1.pdf"},
+{title: "Week 2 SQL Workshop", file: "SQL1.pdf"},
 {title: "Week 2 SQL Introduction", file:"Week2SQLIntoduction2.pdf"},
 {title: "Week 2 SQL Introdcution 2", file: "Week2SQLIntoduction2.pdf"},
 {title: "Week 3 SQL Databases", file: "Week3SQLDatabases.pdf"},
