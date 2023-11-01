@@ -1,5 +1,5 @@
 import '../App.css';
-import Popup from 'reactjs-popup';
+
 
 const AssignDocs = () => {
     return (

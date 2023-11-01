@@ -1,8 +1,7 @@
 import '../pages/popup.css'
 import React from 'react';
 import { useParams } from "react-router-dom"
-import Popup from 'reactjs-popup';
-import AssignDocs from '../components/assignDocs';
+
 
 const Assignments = () => {
     const { id } = useParams()
