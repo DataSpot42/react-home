@@ -14,7 +14,19 @@
     background-color: #000000;
     z-index: 1;
   }
-  
+  .dropMenu {
+    background: rgb(145, 145, 145);
+    color: black;
+  }
+  .dropText {
+    text-decoration: none;
+    color: black;
+
+  }
+  .dropText:hover, .dropText:focus, .dropText:active {
+    animation: riseup .5s forwards;
+    color:black
+  }
   .mainNavItem {
     display: flex;
     flex-direction: row;

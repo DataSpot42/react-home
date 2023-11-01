@@ -22,13 +22,13 @@ return (
     <div className="mainNavBar-container">
     <Link to='/HomePage' className = "mainNavItem"><span className='linkN'>Home</span></Link>
     <Dropdown>
-      <Dropdown.Toggle variant="success" id="dropdown-basic"  className="mainNavItem">
+      <Dropdown.Toggle variant="success" id="dropdown-custom-1"  className="mainNavItem">
         Assignments
       </Dropdown.Toggle>
 
-      <Dropdown.Menu>
+      <Dropdown.Menu className="dropMenu">
         {doc ? doc.map((doc, index) => 
-        <Dropdown.Item key={index} href={`/Assignments/${doc.file}`}>{doc.title}
+        <Dropdown.Item key={index}><Link className="dropText" to={`/Assignments/${doc.file}`}>{doc.title}</Link>
         </Dropdown.Item>
         ): <></> }
       </Dropdown.Menu>
