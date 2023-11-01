@@ -11,6 +11,7 @@ import Games from "./pages/Games";
 import PunkIPA from "./pages/PunkIPA";
 import Util from "./pages/Util";
 import TechDogPPT from "./pages/TechDogBlogppt";
+import Assignments from "./pages/Assignments";
 
 function App() {
   return (
@@ -59,7 +60,12 @@ function App() {
         path='/TechDogBlogPPT'
         element={<TechDogPPT />}
         />
+         <Route
+        path='/Assignments/:id'
+        element={<Assignments />}
+        />
          </ Routes>
+         
         </div>
         </BrowserRouter>
 

@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.full {
+  height: 100vh;
+  background-color: black;
+}
 .appPages {
   width: 100vw;
   height: 95.5vh;
