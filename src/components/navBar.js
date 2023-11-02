@@ -8,14 +8,14 @@ const NavBar = () =>{
 {title: "Week 2 HTML Challange", file: "Week2HTMLChallange.pdf"},
 {title: "Week 2 Databases Workshop", file: "Databases1.pdf"},
 {title: "Week 2 SQL Workshop", file: "SQL1.pdf"},
-{title: "Week 2 SQL Introduction", file:"Week2SQLIntoduction2.pdf"},
+{title: "Week 2 SQL Introduction", file:"Week2SQLIntroduction1.pdf"},
 {title: "Week 2 SQL Introdcution 2", file: "Week2SQLIntoduction2.pdf"},
 {title: "Week 3 SQL Databases", file: "Week3SQLDatabases.pdf"},
 {title: "Week 4 MongoDB Task", file: "Week4MongodBTask.pdf"},
 {title: "Week 5-6 Text Based Adventure Game", file: "Week5-6TextBasedAdventureGame.pdf"},
 {title: "Archery App", file: "ArcheryAppTask.pdf"},
 {title: "Blog Task", file: "blogTask.pdf"},
-{title: "Punk IPA", file:"PunkDesign.pdf"},
+{title: "Punk IPA", file:"punkDesign.pdf"},
 
 ]
 return (
