@@ -22,7 +22,7 @@ return (
     <div>
     
     <div className="mainNavBar-container">
-    <Link to='/HomePage' className = "mainNavItem"><span className='linkN'>Home</span></Link>
+    <Link to='/HomePage' className = "mainNavItem"><span className='linkN'>Main Site</span></Link>
     <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-custom-1"  className="mainNavItem">
         Assignments
