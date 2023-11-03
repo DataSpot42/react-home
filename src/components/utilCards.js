@@ -34,7 +34,15 @@ const UtilCards = () => {
             image: "./images/Github_logo.png",
             imageAlt: "Full Stack Repo",
             linkUrl: "https://github.com/DataSpot42/FullStackToDo",
-            linkText: "To Do FS Repo" },            
+            linkText: "To Do FS Repo" },
+            {title: "Drum Kit",
+            subTitle: "Drum Kit App",
+            text: "React version of Drum Kit Task",
+            image: "./images/drumbkg.jpg",
+            imageAlt: "Drum Kit",
+            linkUrl: "https://camelode-drumkit.netlify.app/",
+            linkText: "Drum Kit App" },            
+            
             {title: "TechDog.blog",
             subTitle: "Blogging Platform Repo",
             text: "The final Bootcamp assignment was to create a full stack app in a team of 4.  We chose a blog platform and called it TechDog. As the backend is not hosted at present take a look at our GitHub Repo",
@@ -42,6 +50,7 @@ const UtilCards = () => {
             imageAlt: "TechDog.blog Repo",
             linkUrl: "https://github.com/DataSpot42/techDogblog",
             linkText: "TechDog Repo Link" }
+            
             
                     
         ]
