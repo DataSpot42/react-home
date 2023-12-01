@@ -19,7 +19,7 @@
     border: 0px;
     height: 30px;
   }
-  .dropMenuCont:hover, .dropMenuCont:active, .dropMenuCont:focus, .dropMenuCont:checked {
+  .dropMenuCont:hover, .dropMenuCont:active, .dropMenuCont:focus, .dropMenuCont:checked, .dropMenuCont:after, .dropMenuCont::selection {
     background-color: black;
   }
   .dropMenu {
@@ -54,8 +54,15 @@
   .dropText {
     text-decoration: none;
     color: rgb(0, 0, 0);
+    text-align: right;
     
 
+  }
+  .btn {
+    background-color: black;
+  }
+  .btn-primary {
+    background-color: rgb(36, 36, 36);
   }
 
   .dropText:hover, .dropText:focus, .dropText:active {
@@ -71,7 +78,7 @@
     text-align: center;
     font-weight: 100;    
     justify-content: center;
-    align-items: center;
+    align-items: right;
     
     margin: auto;    
     text-decoration: none;
@@ -105,9 +112,9 @@
     font-weight: 200;
     line-height: 50%;
     
-    justify-content: left;
-    align-items: left;
-    padding: 12px 5px;
+    justify-content: right;
+    align-items: right;
+    padding: 5px 2px;
     margin: auto;
     
     
@@ -118,9 +125,27 @@
     
     
   }
+  .linkN {
+    padding: 5px 0px;
+  }
   .linkN:hover {
     animation: riseup .5s forwards;
     
+  }
+  .dropdown-menu {
+    padding: 0px 0px;
+    background-color: white;
+    width: 150%;
+    
+  }
+  .dropdown-item {
+    display: block;
+    position: relative;
+    padding: 5px 1px;
+    
+  }
+  .show {
+    padding: 0px 0px;
   }
   @keyframes riseup {
     from {
