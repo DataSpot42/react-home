@@ -38,6 +38,10 @@ function App() {
         element={<HomePage />}
         />
         <Route
+        path='/StarTrek'
+        element={<StarTrek />}
+        />
+        <Route
         path='/WeatherApp'
         element={<WeatherApp />}
         />
@@ -82,6 +86,10 @@ export default App;
 
 const HomePage = ()  => {
   window.location.replace('https://camelcode.co.uk')
+return null
+}
+const StarTrek = ()  => {
+  window.location.replace('https://camelcode.co.uk/stintro.html')
 return null
 }
 

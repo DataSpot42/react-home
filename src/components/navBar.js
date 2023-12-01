@@ -57,7 +57,7 @@ const NavBar = () => {
                     <Link to='/HomePage' className="mainNavItem"><span className='linkN'>Main Site</span></Link>                    
                   </Dropdown.Item>
                   <Dropdown.Item>
-                  <Link className="mainNavItem linkN" to="https://camelcode.co.uk/stintro.html">Star Trek Game</Link>
+                  <Link to='/StarTrek' className="mainNavItem"><span className='linkN'>Star Trek Game</span></Link>  
                   </Dropdown.Item>
                 </DropdownButton>
 
