@@ -28,6 +28,40 @@
   height: 90vh; 
   
 }
+.scrollApp {
+  display:flex;
+  margin-bottom: 5px;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+  border-radius: 15px;
+}
+.scrollText {
+  background-color: azure;
+  color: black;
+  font-weight: 400;
+  border-radius: 15px;
+  max-width: 500px;
+  padding: 5px;
+}
+.scroll-button-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+  max-width: 500px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+.scrollButton{
+  background-color: blueviolet;
+  max-width: 200px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
 .caraApp {
   display:flex;
   margin-bottom: 5px;

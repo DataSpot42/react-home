@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from 'react';
 import './App.css';
-import MainPage from './pages/main'
+
 import NavBar from "./components/navBar";
 import CardGamesApp from './pages/CardGamesApp'
 import WeatherApp from "./pages/WeatherApp";
@@ -12,6 +12,7 @@ import PunkIPA from "./pages/PunkIPA";
 import Util from "./pages/Util";
 import TechDogPPT from "./pages/TechDogBlogppt";
 import Assignments from "./pages/Assignments";
+import MobileMain from "./pages/mobilemain";
 
 function App() {
   return (
@@ -22,7 +23,11 @@ function App() {
         <Routes>
         <Route
         path='/'
-        element={<MainPage />}
+        element={<MobileMain />}
+        />
+        <Route
+        path='/Mobile'
+        element={<MobileMain />}
         />
         <Route
         path='/CardGamesApp'
