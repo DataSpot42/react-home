@@ -6,14 +6,14 @@ const GamesCards = () => {
             image: "./images/cardGames21.png",
             imageAlt: "21 Card Game",
             linkUrl: "https://play-card-games.netlify.app",
-            linkText: "Card Games" },
+            linkText: "Card Games App" },
             {title: "Card Games",
             subTitle: "Card Games GitHub",
             text: "GitHub Repo",
             image: "./images/Github_logo.png",
             imageAlt: "Github Repo",
             linkUrl: "https://github.com/DataSpot42/card-games-app",
-            linkText: "Card Games Repo" }            
+            linkText: "Card Games Code" }            
         ]
 return (gamesCard)
 }

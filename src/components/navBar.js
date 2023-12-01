@@ -23,17 +23,18 @@ const NavBar = () => {
     <div>
 
       <div className="mainNavBar-container">
-        <div className="titleText">camelCode <img src={`./favicon.ico`} alt="Camel Icon" height="25px"></img></div>
+      
+        <div className="titleText"><Link className="titleText" to='/'>camelCode </Link><img src={`./favicon.ico`} alt="Camel Icon" height="25px"></img></div>
         <div className="dropMenuIcon">
           <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic" className="dropMenuCont">
-              <img className="dropMenu" src={`./menu.png`} alt="Menu" width="50px" height="80px"></img>
+            <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+              <img className="dropMenu icon" src={`./menu.png`} alt="Menu" width="40px" height="20px"></img>
             </Dropdown.Toggle>
 
             <Dropdown.Menu className="dropMenu">
 
               <Dropdown className="dropSubMenu">
-                <DropdownButton className="dropSubMenu" id="dropdown-button-drop-start" drop="start"
+                <DropdownButton variant="secondary" className="dropSubMenu" id="dropdown-button-drop-start" drop="start"
                   title="Applications">
 
                   <Dropdown.Item>
@@ -49,12 +50,14 @@ const NavBar = () => {
               <Dropdown>
 
 
-                <DropdownButton className="dropSubMenu" id="dropdown-button-drop-start" drop="start"
+                <DropdownButton variant="secondary" className="dropSubMenu" id="dropdown-button-drop-start" drop="start"
                   title="HTML Pages">
 
                   <Dropdown.Item>
-                    <Link to='/HomePage' className="mainNavItem"><span className='linkN'>Main Site</span></Link>
-
+                    <Link to='/HomePage' className="mainNavItem"><span className='linkN'>Main Site</span></Link>                    
+                  </Dropdown.Item>
+                  <Dropdown.Item>
+                  <Link className="mainNavItem linkN" to="https://camelcode.co.uk/stintro.html">Star Trek Game</Link>
                   </Dropdown.Item>
                 </DropdownButton>
 
@@ -64,7 +67,7 @@ const NavBar = () => {
 
 
 
-                <DropdownButton id="dropdown-button-drop-start" drop="start"
+                <DropdownButton variant="secondary" id="dropdown-button-drop-start" drop="start"
                   title="Assignments">
 
                   {doc ? doc.map((doc, index) =>

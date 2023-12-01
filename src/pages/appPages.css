@@ -1,9 +1,4 @@
-.appPages {
-    width: 100vw;
-    height: 99.5vh;
-    background-color: black;
 
-}
 
 .navSpace {
     min-height: 30px;
@@ -22,6 +17,9 @@
 
 
 }
+.card-container {
+    pointer-events: all;
+}
 
 .navSpace {
     min-height: 30px;
@@ -33,6 +31,7 @@
     text-shadow: 5px black;
     padding: 15px 15px;
     list-style-type: none;
+    font-size: 120%;
     background: radial-gradient(ellipse at 50% 50%, rgba(155, 155, 155, 1) 0%, rgba(85, 85, 85, 0.89) 61%, rgba(8, 8, 8, 0.82) 100%);
     transition: scale ease-out 100ms;
     border-radius: 10px;
@@ -77,31 +76,37 @@ img {
 }
 
 .cardButton {
-    display: flex;
-    flex-direction: row;
-    color: white;
-    font-size: 100%;
-    font-family: sans-serif;
-    text-align: center;
-    font-weight: 100;
-    justify-content: center;
-    align-items: center;   
-    padding: 10px 0;
-    margin: auto;
-    height: 5%;
-    width: 40%;
-    text-decoration: none;
-    max-height: 40px;
-    max-width: 200px;
-    border: 10px;
-    border-radius: 20px;
-    flex-grow: 1;
-    flex-shrink: 1;
-    background: black;
-    transition: scale ease-out 100ms;
+    background-color: rgb(57, 0, 110);
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  margin: 7px 5px 2px 5px;
+  max-width: 200px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  
+  box-shadow:
+    0 0 5px 5px #fff,
+    0 0 5px 5px #f0f,
+    0 0 5px 5px #0ff;
 
 
 }
+.cardButton:hover {
+    animation: riseup .5s forwards;
+    
+  }
+@keyframes riseup {
+    from {
+        scale: 1
+    }
+    to {
+        scale: 1.15
+        
+    }
+  }
 
 .button-container {
     display: flex;
@@ -126,7 +131,7 @@ img {
 }
 @media screen and (max-width: 800px) {
     .appCards {
-        font-size: 10px;
+        font-size: 90%;
     }
     .cardButton {
         max-width: 110px;
@@ -141,7 +146,7 @@ img {
     grid-template-rows: repeat(2, 1fr);
     }
     .appCards {
-        font-size: 8px;
+        font-size: 90%;
         
     }
     .cardButton {
@@ -150,6 +155,13 @@ img {
     }
 }
 @media screen and (max-width: 420px) {
+    .appGrid-container {
+
+    
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        }
+
     .cardButton {
         
         padding: 5px 5px;

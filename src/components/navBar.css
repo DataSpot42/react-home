@@ -13,21 +13,15 @@
     vertical-align:top;
     z-index: 1;
   }
-  .dropMenuCont {
-    display: flex;
-    background: rgb(0, 0, 0);
-    border: 0px;
-    height: 30px;
-  }
-  .dropMenuCont:hover, .dropMenuCont:active, .dropMenuCont:focus, .dropMenuCont:checked, .dropMenuCont:after, .dropMenuCont::selection {
-    background-color: black;
-  }
+  
   .dropMenu {
     background: rgb(255, 255, 255);
-    height: 30px;
+    height: 20px;
+    padding: 0px;
   }
   .dropMenu:active, .dropMenu:focus, .dropMenu:hover {
     background-color: rgb(255, 255, 255);
+    
   }
   .dropMenuIcon {
     display: flex;
@@ -35,12 +29,22 @@
     justify-content: flex-end;
     margin-left: auto;
     height: 20px;
-    background-color: black;
+    background-color: black;    
   }
+  .icon:hover {
+    animation: riseup .5s forwards;
+  }
+  
+
   .titleText {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: aliceblue;
+    text-decoration: none;
+    padding-left: 5px;
+  }
+  .titleText:hover {
+    animation: riseup .5s forwards;
   }
   .dropSubMenu {
     background: rgb(145, 145, 145);

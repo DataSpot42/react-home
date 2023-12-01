@@ -16,7 +16,7 @@ const ECommAppCards = () => {
             image: "./images/Github_logo.png",
             imageAlt: "PunkIPA GitHub Repo",
             linkUrl: "https://github.com/stefanthomasjones/PunkSite",
-            linkText: "PunkSite Repo"
+            linkText: "PunkSite Code"
         },
         {
             title: "PunkIPA",
@@ -25,7 +25,7 @@ const ECommAppCards = () => {
             image: "./images/Github_logo.png",
             imageAlt: "PunkIPA FE GitHub Repo",
             linkUrl: "https://github.com/DataSpot42/punk-local-app",
-            linkText: "PunkSite FE Repo"
+            linkText: "PunkSite FE Code"
         }
 
 

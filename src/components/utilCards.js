@@ -13,7 +13,7 @@ const UtilCards = () => {
             image: "./images/Github_logo.png",
             imageAlt: "Weather App Repo",
             linkUrl: "https://github.com/DataSpot42/weatherapp",
-            linkText: "Weather App Repo" },
+            linkText: "Weather App Code" },
             {title: "To Do App",
             subTitle: "To Do list application",
             text: "Application to add, edit and delete from a list.  Firstly as a front-end app, here using browser local storage to save the list",
@@ -27,14 +27,14 @@ const UtilCards = () => {
             image: "./images/Github_logo.png",
             imageAlt: "To Do FE Repo",
             linkUrl: "https://github.com/DataSpot42/ReactToDo",
-            linkText: "To Do FE Repo"},
+            linkText: "To Do FE Code"},
             {title: "To Do App",
             subTitle: "Full Stack Repo",
             text: "GitHub Repo with Full MERN Stack.  Database on MongoDB",
             image: "./images/Github_logo.png",
-            imageAlt: "Full Stack Repo",
+            imageAlt: "Full Stack Code",
             linkUrl: "https://github.com/DataSpot42/FullStackToDo",
-            linkText: "To Do FS Repo" },
+            linkText: "To Do FS Code" },
             {title: "Drum Kit",
             subTitle: "Drum Kit App",
             text: "React version of Drum Kit Task",
@@ -49,7 +49,7 @@ const UtilCards = () => {
             image: "./images/Github_logo.png",
             imageAlt: "TechDog.blog Repo",
             linkUrl: "https://github.com/DataSpot42/techDogblog",
-            linkText: "TechDog Repo Link" }
+            linkText: "TechDog Code" }
             
             
                     
