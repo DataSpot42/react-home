@@ -38,6 +38,14 @@ const MobileMain = () => {
                 <div className="scroll-button-container"><Link className="scrollButton" to="/TechDogBlogPPT">TechDogBlogPPT</Link>
                     <a className="scrollButton" href="https://github.com/DataSpot42/techDogblog" target="_blank" rel="noreferrer">Code</a></div>
             </div>
+            <div className="eachApp">
+            <iframe className="scrollApp" title="DrumKit" src="https://camelcode-drumkit.netlify.app/" width="100%" height="99.4%" ></iframe>
+                <div className="scrollText">Basic Drum Kit App, created in React after Bootcamp. Click on link below to open the app</div>
+                <div className="scroll-button-container"><a className="scrollButton" href="https://camelcode-drumkit.netlify.app/" target="_blank" rel="noreferrer">DrumKit App</a>
+                    <a className="scrollButton" href="https://github.com/DataSpot42/drumkit-app" target="_blank" rel="noreferrer">Code</a>
+               </div>     
+            </div>
+            
         </div>
     )
 

@@ -40,7 +40,7 @@ const UtilCards = () => {
             text: "React version of Drum Kit Task",
             image: "./images/drumbkg.jpg",
             imageAlt: "Drum Kit",
-            linkUrl: "https://camelode-drumkit.netlify.app/",
+            linkUrl: "https://camelcode-drumkit.netlify.app/",
             linkText: "Drum Kit App" },            
             
             {title: "TechDog.blog",
