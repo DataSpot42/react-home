@@ -37,8 +37,7 @@ const NavBar = () => {
                 <DropdownButton variant="secondary" className="dropSubMenu" id="dropdown-button-drop-start" drop="start"
                   title="Applications">
 
-                  <Dropdown.Item>
-                    
+                  <Dropdown.Item>                    
                     <Link to='/EComm' className="MenuNavItem"><span className='linkN'>eCommerce Apps</span></Link>
                     <Link to='/Util' className="MenuNavItem"><span className='linkN'>Tool Apps</span></Link>
                     <Link to='/Games' className="MenuNavItem"><span className='linkN'>Game Apps</span></Link>
