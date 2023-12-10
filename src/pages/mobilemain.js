@@ -5,7 +5,7 @@ import '../App.css';
 
 const MobileMain = () => {
     let appDetails = PortfolioCards();
-    console.log(appDetails)
+    
     return (
         
         <div className="appPages">

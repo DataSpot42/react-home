@@ -53,10 +53,14 @@ const NavBar = () => {
                   title="HTML Pages">
 
                   <Dropdown.Item>
+                    <div>
                     <Link to='/HomePage' className="mainNavItem"><span className='linkN'>Main Site</span></Link>                    
+                    </div>
                   </Dropdown.Item>
                   <Dropdown.Item>
+                    <div>
                   <Link to='/StarTrek' className="mainNavItem"><span className='linkN'>Star Trek Game</span></Link>  
+                  </div>
                   </Dropdown.Item>
                 </DropdownButton>
 
@@ -68,9 +72,11 @@ const NavBar = () => {
 
                 <DropdownButton variant="secondary" id="dropdown-button-drop-start" drop="start"
                   title="Assignments">
-
                   {doc ? doc.map((doc, index) =>
-                    <Dropdown.Item key={index}><Link className="MenuNavItem linkN" to={`/Assignments/${doc.file}`}>{doc.title}</Link>
+                    <Dropdown.Item key={index}>
+                      
+                      <Link className="MenuNavItem linkN" to={`/Assignments/${doc.file}`}><span>{doc.title}</span></Link>
+                      
                     </Dropdown.Item>
                   ) : <></>}
                 </DropdownButton>
